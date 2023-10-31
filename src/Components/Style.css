@@ -1,0 +1,20 @@
+.container{
+    background-color: greenyellow;
+    color:white;
+    border-radius: 10px;
+    margin: auto;
+    top: 50px;
+
+}
+span{
+    color:red ;
+    font-size: 12px;
+    display: none;
+}
+input:invalid[focus = 'true'] ~ span{
+    display: block;
+}
+input:invalid[focus = 'true']{
+    border: 1px solid red;
+}
+
